@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: black;
+}
+
+.container{
+    border: 1px solid;
+    max-width: 50rem;
+    padding: 0px 2rem;
+    border: 1px solid;
+    margin: 2rem auto;
+}
+
+.main-heading{
+    text-align: center;
+    font-size: 4rem;
+    margin: 2rem 0 1rem;
+}
+
+.form-class{
+    margin: 2rem 0;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+.input-div{
+    margin-bottom:1rem ;
+}
+
+.field-inputs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.form-control-input{
+    font-size: 1.5rem;
+    text-indent: 0.5rem;
+    width: 100%;
+    padding: 0.4rem 0px;
+    color: #999;
+    border: none;
+}
+
+option {
+    color: #999;
+  }
+  .radio {
+    outline: none;
+  }
+  
+  .form-control-input:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+  }
+  
+  .help-text {
+    font-size: 0.7rem;
+    margin-top: 0.4rem;
+    padding: 0.1rem;
+  }
+  
+  button {
+    font-size: 2rem;
+    margin: 0px auto;
+    display: block;
+    color: wite;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid white;
+    background-color: #023de3;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px #0000;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+  }
